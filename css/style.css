@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+.clr{
+    clear: both;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8px;
+}
+.container{
+    width: 1000px;
+    height: 333px;
+    background-color: wheat;
+}
+/* ============email-main part================== */
+#email{
+    padding-top: 100px;
+}
+.row > * {
+    padding: 0;
+}
+
+.img-bg-left{
+    width: 345px;
+    position: relative;
+}
+.img-bg-right{
+    width: 655px;
+    padding: 70px 0 64px 125px;
+}
+.profile{
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    border: 12px solid #1b3751;
+    border-radius: 50%;
+    top: 50%;
+    left: 85%;
+    transform: translate(-50%,-50%);
+}
+.profile img{
+    width: 186px;
+    height: 186px;
+    border-radius: 50%;
+
+}
+.logo{
+    position: absolute;
+    padding: 35px 0 0 45px;
+    top: 0;
+    left: 0;
+}
+.dot{
+    position: absolute;
+    padding: 0px 0 30px 45px;
+    bottom: 0;
+    left: 0;
+}
+.img-bg-right h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28pt;
+    font-weight: 700;
+    color: #14314a;
+}
+.img-bg-right h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16pt;
+    font-weight: 500;
+    padding-top: 34px;
+    position: relative;
+    color: #14314a;
+}
+.img-bg-right h4::after{
+    position: absolute;
+    content: '';
+    width: 48px;
+    height: 2px;
+    background-color: #101f37;
+    bottom: -23px;
+    left: 0;
+}
+.icon-list{
+    padding-top: 40px;
+}
+.icon-list i{
+    width: 22px;
+    height: 22px;
+    color: #ffffff;
+    background-color: #14314a;
+    line-height: 22px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.icon-item{
+    /* width: 172px; */
+    /* height: 20px; */
+    background-color: #dce0e4;
+    border-radius: 15px;
+    position: relative;
+    margin-right:20px;
+}
+.icon-item p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11pt;
+    padding: 11px 10px 10px 30px;
+    color: #2e2e2e;
+}
+
+.social-iocn{
+    padding-top: 28px ;
+}
+.social-iocn i{
+    width: 20px;
+    height: 23px;
+    background-color: #dce0e4;
+    font-size: 14px;
+    color: #14314a;
+    line-height: 22px;
+    text-align: center;
+}
+.social-iocn ul li{
+    display: inline;
+    padding-right: 15px;
+}
+
+.dot2{
+    right: 40px;
+    top: 28px;
+}
